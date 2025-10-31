@@ -5,73 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Project Details | Data Science Web App Projects</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    .dark-mode {
-      background-color: #0f172a;
-      color: #f1f5f9;
-    }
-  </style>
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
 </head>
-<body class="transition-colors duration-300 bg-gray-50 text-gray-800">
-  <!-- Header -->
+<body class="transition-colors duration-300 bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100">
   <header class="flex justify-between items-center px-6 py-4 border-b border-gray-200 dark:border-gray-700">
-    <h1 id="headerTitle" class="text-xl font-semibold">Project Details</h1>
+    <h1 class="text-xl font-semibold">Project Details</h1>
     <a href="index.html" class="text-sm text-blue-600 dark:text-blue-400 hover:underline">← Back to Projects</a>
   </header>
 
-  <!-- Main content -->
   <main class="flex flex-col justify-center items-center text-center px-4 py-20">
-    <h2 id="pageTitle" class="text-3xl font-bold mb-6">Under Construction</h2>
-
+    <h2 class="text-3xl font-bold mb-6">Under Construction</h2>
     <img 
       src="assets/images/underconstruction.png"
       alt="Under Construction" 
       class="max-w-md mx-auto mb-6 drop-shadow-lg rounded-lg"
     />
-
-    <p id="pageDesc" class="max-w-xl text-gray-600 dark:text-gray-300">
-      This project page is currently being developed. Please check back soon for updates on its technical details and references.
+    <p class="max-w-xl text-gray-600 dark:text-gray-300">
+      This project page is currently being developed. Please check back soon for updates.
     </p>
 
     <footer class="mt-10 text-xs text-gray-500 dark:text-gray-400">
       Image source:
-      <a href="https://purepng.com/photo/28715/clipart-under-construction" target="_blank" class="underline hover:text-blue-500">
-        purepng.com/photo/28715/clipart-under-construction
+      <a href="https://purepng.com/photo/28715/clipart-under-construction" target="_blank" rel="noopener" class="underline hover:text-blue-500">
+        purepng.com
       </a>
     </footer>
   </main>
 
+  <!-- Optional: only if you want theme persistence (no translation needed for placeholder) -->
   <script>
-    // === Persistent dark/light mode ===
-    const body = document.body;
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'dark') body.classList.add('dark-mode');
-
-    // === Persistent language selection ===
-    const translations = {
-      en: {
-        header: "Project Details",
-        title: "Under Construction",
-        desc: "This project page is currently being developed. Please check back soon for updates on its technical details and references."
-      },
-      id: {
-        header: "Detail Proyek",
-        title: "Sedang Dalam Pengembangan",
-        desc: "Halaman proyek ini sedang dikembangkan. Silakan periksa kembali nanti untuk pembaruan tentang detail teknis dan referensinya."
-      },
-      zh: {
-        header: "项目详情",
-        title: "建设中",
-        desc: "该项目页面目前正在开发中。请稍后回来查看其技术细节和参考资料的更新。"
-      }
-    };
-
-    const savedLang = localStorage.getItem('lang') || 'en';
-    const content = translations[savedLang];
-    document.getElementById('headerTitle').textContent = content.header;
-    document.getElementById('pageTitle').textContent = content.title;
-    document.getElementById('pageDesc').textContent = content.desc;
+    // Simple theme-only persistence (no translation)
+    if (localStorage.getItem('theme') === 'dark') {
+      document.documentElement.classList.add('dark');
+    }
   </script>
 </body>
 </html>
-
