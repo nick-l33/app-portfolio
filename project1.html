@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Statistical Data Analysis Web App | Data Science Web App Projects</title>
+  <!-- Enable Tailwind dark mode -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
+</head>
+<body class="transition-colors duration-300 bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100">
+
+  <header class="flex justify-between items-center px-6 py-4 border-b border-gray-200 dark:border-gray-700">
+    <!-- Add ID for title -->
+    <h1 id="project-title" class="text-xl font-semibold">Statistical Data Analysis Web App</h1>
+    <!-- Add ID for back link -->
+    <a id="back-link" href="index.html" class="text-sm text-blue-600 dark:text-blue-400 hover:underline">← Back to Projects</a>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-10 space-y-8">
+    <!-- Add ID for description -->
+    <p id="project-desc" class="text-gray-700 dark:text-gray-300 leading-relaxed">
+      This app allows users to upload datasets and perform A/B tests or correlation analysis.
+      It automatically checks for normality and selects appropriate statistical tests.
+    </p>
+
+    <div>
+      <!-- Add ID for tech header -->
+      <h2 id="tech-header" class="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">Tech Stack</h2>
+      <!-- Add ID for tech list -->
+      <ul id="tech-list" class="list-disc pl-5 space-y-1 text-gray-700 dark:text-gray-300">
+        <li>Frontend: Streamlit (Python)</li>
+        <li>Stats: SciPy, StatsModels</li>
+        <li>Deployment: Streamlit Cloud</li>
+      </ul>
+    </div>
+
+    <div class="flex flex-col items-center mt-8">
+      <img 
+        src="assets/images/underconstruction.png"
+        alt="Under Construction" 
+        class="max-w-md mx-auto mb-4 drop-shadow-lg rounded-lg"
+      />
+      <!-- Add ID for caption -->
+      <p id="under-construction-caption" class="text-sm text-gray-600 dark:text-gray-400 max-w-md text-center">
+        Additional visualizations and interactive documentation coming soon.
+      </p>
+    </div>
+
+    <footer class="text-xs text-gray-500 dark:text-gray-400 text-center mt-6">
+      Image source:
+      <a 
+        href="https://purepng.com/photo/28715/clipart-under-construction" 
+        target="_blank" 
+        rel="noopener" 
+        class="underline hover:text-blue-500"
+      >
+        purepng.com
+      </a>
+    </footer>
+  </main>
+
+  <script src="js/shared.js"></script>
+</body>
+</html>

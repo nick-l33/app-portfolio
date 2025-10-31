@@ -1,0 +1,80 @@
+{
+  "en": {
+    "pageTitle": "Data Science Web App Projects",
+    "project1": {
+      "title": "Statistical Data Analysis Web App",
+      "desc": "Perform A/B and correlation tests interactively with automatic normality detection and dynamic column selection.",
+      "details": "Details",
+      "launch": "Launch App",
+      "techHeader": "Tech Stacks",
+      "techItems": ["Frontend: Streamlit (Lightweight Python frontend library)", "Backend: Python", "Deployment: Streamlit Cloud"],
+      "underConstruction": "Additional visualizations and interactive documentation coming soon."
+    },
+    "project2": {
+      "title": "Time-Series Predictive Analysis Dashboard",
+      "desc": "A dashboard for exploring time-series data, performing predictive trend analysis, and generating visual insights interactively.",
+      "details": "Details",
+      "launch": "Launch App"
+    },
+    "project3": {
+      "title": "Finance Analytics Tracker",
+      "desc": "Finance Analytics Platform: Real-Time Expense & Income Insights with Go, MongoDB, and React/Next.js.",
+      "details": "Details",
+      "launch": "Launch App"
+    },
+    "backToProjects": "← Back to All Projects",
+    "footer": "© 2025 — Full-stack data science projects, developed with AI assistance and hosted on GitHub Pages"
+  },
+  "id": {
+    "pageTitle": "Portofolio Aplikasi Web Berbasis Ilmu Data",
+    "project1": {
+      "title": "Aplikasi Analisis Data Statistik",
+      "desc": "Lakukan uji A/B dan korelasi secara interaktif dengan deteksi normalitas otomatis dan pemilihan kolom dinamis.",
+      "details": "Detail",
+      "launch": "Jalankan Aplikasi",
+      "techHeader": "Tumpukan Teknologi",
+      "techItems": ["Frontend: Streamlit (Python)", "Statistik: SciPy, StatsModels", "Deploy: Streamlit Cloud"],
+      "underConstruction": "Visualisasi tambahan dan dokumentasi interaktif segera hadir."
+    },
+    "project2": {
+      "title": "Dasbor Analisis Prediktif Deret Waktu",
+      "desc": "Dasbor untuk menjelajahi data deret waktu, melakukan analisis tren prediktif, dan menghasilkan wawasan visual secara interaktif.",
+      "details": "Detail",
+      "launch": "Jalankan Aplikasi"
+    },
+    "project3": {
+      "title": "Pelacak Analitik Keuangan",
+      "desc": "Platform Analitik Keuangan: Wawasan Pengeluaran & Pendapatan Real-Time dengan Go, MongoDB, dan React/Next.js.",
+      "details": "Detail",
+      "launch": "Jalankan Aplikasi"
+    },
+    "backToProjects": "← Kembali ke Semua Proyek",
+    "footer": "© 2025 — Proyek ilmu data full-stack, dikembangkan dengan bantuan AI dan dipublikasikan di GitHub Pages"
+  },
+  "zh": {
+    "pageTitle": "数据科学网络应用作品集",
+    "project1": {
+      "title": "统计数据分析网络应用",
+      "desc": "通过自动正态性检测和动态列选择，交互式执行 A/B 测试和相关性分析。",
+      "details": "详情",
+      "launch": "启动应用",
+      "techHeader": "技术栈",
+      "techItems": ["前端：Streamlit (Python)", "统计：SciPy、StatsModels", "部署：Streamlit Cloud"],
+      "underConstruction": "更多可视化和交互式文档即将推出。"
+    },
+    "project2": {
+      "title": "时间序列预测分析仪表板",
+      "desc": "用于探索时间序列数据、执行预测趋势分析并生成交互式可视化洞察的仪表板。",
+      "details": "详情",
+      "launch": "启动应用"
+    },
+    "project3": {
+      "title": "金融分析追踪器",
+      "desc": "金融分析平台：使用 Go、MongoDB 和 React/Next.js 实现实时收支洞察。",
+      "details": "详情",
+      "launch": "启动应用"
+    },
+    "backToProjects": "← 返回项目",
+    "footer": "© 2025 — 全栈数据科学项目，借助 AI 辅助开发，托管于 GitHub Pages"
+  }
+}
