@@ -86,13 +86,13 @@ function setupThemeToggle() {
   if (!btn) return;
 
   const isDark = document.documentElement.classList.contains('dark');
-  btn.textContent = isDark ? '🌙' : '🌞';
+  btn.textContent = isDark ? '🌞' : '🌙';
 
   btn.addEventListener('click', () => {
     document.documentElement.classList.toggle('dark');
     const nowDark = document.documentElement.classList.contains('dark');
     localStorage.setItem('theme', nowDark ? 'dark' : 'light');
-    btn.textContent = nowDark ? '🌙' : '🌞';
+    btn.textContent = nowDark ? '🌞' : '🌙';
   });
 }
 
