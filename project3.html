@@ -3,32 +3,54 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project Details | Data Science Web App Projects</title>
+  <title>Time-Series Predictive Analysis Dashboard | Data Science Web App Projects</title>
+  <!-- Enable Tailwind dark mode -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = { darkMode: 'class' }
   </script>
 </head>
 <body class="transition-colors duration-300 bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100">
+
   <header class="flex justify-between items-center px-6 py-4 border-b border-gray-200 dark:border-gray-700">
-    <h1 class="text-xl font-semibold">Project Details</h1>
-    <a href="index.html" class="text-sm text-blue-600 dark:text-blue-400 hover:underline">← Back to Projects</a>
+    <h1 id="project-title" class="text-xl font-semibold">Time-Series Predictive Analysis Dashboard</h1>
+    <a id="back-link" href="index.html" class="text-sm text-blue-600 dark:text-blue-400 hover:underline">← Back to All Projects</a>
   </header>
 
-  <main class="flex flex-col justify-center items-center text-center px-4 py-20">
-    <h2 class="text-3xl font-bold mb-6">Under Construction</h2>
-    <img 
-      src="assets/images/underconstruction.png"
-      alt="Under Construction" 
-      class="max-w-md mx-auto mb-6 drop-shadow-lg rounded-lg"
-    />
-    <p class="max-w-xl text-gray-600 dark:text-gray-300">
-      This project page is currently being developed. Please check back soon for updates.
+  <main class="max-w-4xl mx-auto px-4 py-10 space-y-8">
+    <p id="project-desc" class="text-gray-700 dark:text-gray-300 leading-relaxed">
+      A dashboard for exploring time-series data, performing predictive trend analysis, and generating visual insights interactively.
     </p>
 
-    <footer class="mt-10 text-xs text-gray-500 dark:text-gray-400">
+    <div>
+      <h2 id="tech-header" class="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">Tech Stack</h2>
+      <ul id="tech-list" class="list-disc pl-5 space-y-1 text-gray-700 dark:text-gray-300">
+        <li>Frontend: Next.js, TypeScript, Tailwind CSS, Recharts</li>
+        <li>Backend: Python, FastAPI, yfinance, Prophet, ARIMA</li>
+        <li>Database: MongoDB Atlas (user-specific caching)</li>
+        <li>Deployment: Frontend on Vercel, Backend on Render</li>
+      </ul>
+    </div>
+
+    <div class="flex flex-col items-center mt-8">
+      <img 
+        src="assets/images/underconstruction.png"
+        alt="Under Construction" 
+        class="max-w-md mx-auto mb-4 drop-shadow-lg rounded-lg"
+      />
+      <p id="under-construction-caption" class="text-sm text-gray-600 dark:text-gray-400 max-w-md text-center">
+        More documentation and walkthrough coming soon.
+      </p>
+    </div>
+
+    <footer class="text-xs text-gray-500 dark:text-gray-400 text-center mt-6">
       Image source:
-      <a href="https://purepng.com/photo/28715/clipart-under-construction" target="_blank" rel="noopener" class="underline hover:text-blue-500">
+      <a 
+        href="https://purepng.com/photo/28715/clipart-under-construction" 
+        target="_blank" 
+        rel="noopener" 
+        class="underline hover:text-blue-500"
+      >
         purepng.com
       </a>
     </footer>
