@@ -112,24 +112,7 @@ function applyLanguage() {
     }
     if (caption) caption.textContent = t.project3?.underConstruction || '';
   }
-  // // === Translate project1.html (if on that page) ===
-  // if (window.location.pathname.includes('project1.html')) {
-  //   const h1 = document.querySelector('header h1');
-  //   const backLink = document.querySelector('header a');
-  //   const desc = document.querySelector('main p');
-  //   const techHeader = document.querySelector('h2');
-  //   const techList = document.querySelector('ul');
-  //   const caption = document.querySelector('.text-sm.text-gray-600');
-
-  //   if (h1) h1.textContent = t.project1?.title || '';
-  //   if (backLink) backLink.textContent = t.backToProjects || '← Back to Projects';
-  //   if (desc) desc.textContent = t.project1?.desc || '';
-  //   if (techHeader) techHeader.textContent = t.project1?.techHeader || 'Tech Stack';
-  //   if (techList && t.project1?.techItems) {
-  //     techList.innerHTML = t.project1.techItems.map(item => `<li>${item}</li>`).join('');
-  //   }
-  //   if (caption) caption.textContent = t.project1?.underConstruction || '';
-  // }
+  
 }
 
 // Setup theme toggle
