@@ -10,13 +10,13 @@
       "techItems": ["Frontend: Streamlit (Lightweight Python frontend library)", "Backend: Python", "Deployment: Streamlit Cloud"],
       "underConstruction": "Additional visualizations and interactive documentation coming soon."
     },
-    "project2": {
+    "project3": {
       "title": "Time-Series Predictive Analysis Dashboard",
       "desc": "A dashboard for exploring time-series data, performing predictive trend analysis, and generating visual insights interactively.",
       "details": "Details",
       "launch": "Launch App"
     },
-    "project3": {
+    "project2": {
       "title": "Finance Analytics Tracker",
       "desc": "Finance Analytics Platform: Real-Time Expense & Income Insights with Go, MongoDB, and React/Next.js.",
       "details": "Details",
@@ -36,13 +36,13 @@
       "techItems": ["Frontend: Streamlit (Python)", "Statistik: SciPy, StatsModels", "Deploy: Streamlit Cloud"],
       "underConstruction": "Visualisasi tambahan dan dokumentasi interaktif segera hadir."
     },
-    "project2": {
+    "project3": {
       "title": "Dasbor Analisis Prediktif Deret Waktu",
       "desc": "Dasbor untuk menjelajahi data deret waktu, melakukan analisis tren prediktif, dan menghasilkan wawasan visual secara interaktif.",
       "details": "Detail",
       "launch": "Jalankan Aplikasi"
     },
-    "project3": {
+    "project2": {
       "title": "Pelacak Analitik Keuangan",
       "desc": "Platform Analitik Keuangan: Wawasan Pengeluaran & Pendapatan Real-Time dengan Go, MongoDB, dan React/Next.js.",
       "details": "Detail",
@@ -62,13 +62,13 @@
       "techItems": ["前端：Streamlit (Python)", "统计：SciPy、StatsModels", "部署：Streamlit Cloud"],
       "underConstruction": "更多可视化和交互式文档即将推出。"
     },
-    "project2": {
+    "project3": {
       "title": "时间序列预测分析仪表板",
       "desc": "用于探索时间序列数据、执行预测趋势分析并生成交互式可视化洞察的仪表板。",
       "details": "详情",
       "launch": "启动应用"
     },
-    "project3": {
+    "project2": {
       "title": "金融分析追踪器",
       "desc": "金融分析平台：使用 Go、MongoDB 和 React/Next.js 实现实时收支洞察。",
       "details": "详情",
