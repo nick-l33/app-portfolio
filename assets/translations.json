@@ -16,7 +16,7 @@
       "details": "Details",
       "launch": "Launch App",
       "techHeader": "Tech Stacks",
-      "techItems": ["Frontend: ", "Backend: ", "Deployment: Frontend on Vercel, Backend on Render (expect ~1-2 minutes of latency on cold start)"],
+      "techItems": ["Frontend: React, Next.js, Tailwind CSS", "Backend: Python", "Database: MongoDB (for user-specific caching)", "Deployment: Frontend on Vercel, Backend on Render (expect ~1-2 minutes of latency on cold start)"],
       "underConstruction": "More documentation and walkthrough coming soon."
     },
     "project2": {
@@ -25,7 +25,7 @@
       "details": "Details",
       "launch": "Launch App",
       "techHeader": "Tech Stacks",
-      "techItems": ["Frontend: React, Next.js, Tailwind CSS", "Backend: Python", "Database: MongoDB (for caching)", "Deploy: Frontend on Vercel, Backend on Render (expect ~1-2 minutes of latency on cold start)"],
+      "techItems": ["Frontend: React, Next.js, Tailwind CSS", "Backend: Python", "Data Layer: In-memory mock data (no real database)", "Deployment: Frontend on Vercel, Backend on Render (expect ~1-2 minutes of latency on cold start)"],
       "underConstruction": "More documentation and walkthrough coming soon."
     },
     "backToProjects": "← Back to All Projects",
