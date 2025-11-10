@@ -17,8 +17,8 @@
       "launch": "Launch App"
     },
     "project2": {
-      "title": "Finance Analytics Tracker",
-      "desc": "Finance Analytics Platform: Real-Time Expense & Income Insights with Go, MongoDB, and React/Next.js.",
+      "title": "Finance Tracker Web App",
+      "desc": "A demo finance tracker dashboard with interactive CRUD, spending analytics, and clustering insights.",
       "details": "Details",
       "launch": "Launch App"
     },
@@ -43,8 +43,8 @@
       "launch": "Jalankan Aplikasi"
     },
     "project2": {
-      "title": "Pelacak Analitik Keuangan",
-      "desc": "Platform Analitik Keuangan: Wawasan Pengeluaran & Pendapatan Real-Time dengan Go, MongoDB, dan React/Next.js.",
+      "title": "Aplikasi Web Pelacak Finansial",
+      "desc": "Demo dashbor keuangan dengan fitur CRUD interaktif, visualisasi analitik, dan klaster pengeluaran berbasis ML.",
       "details": "Detail",
       "launch": "Jalankan Aplikasi"
     },
@@ -69,8 +69,8 @@
       "launch": "启动应用"
     },
     "project2": {
-      "title": "金融分析追踪器",
-      "desc": "金融分析平台：使用 Go、MongoDB 和 React/Next.js 实现实时收支洞察。",
+      "title": "财务追踪器网络应用程序",
+      "desc": "一款演示版财务追踪仪表盘，支持交互式 CRUD 操作、支出分析与聚类洞察。",
       "details": "详情",
       "launch": "启动应用"
     },
