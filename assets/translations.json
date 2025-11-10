@@ -14,13 +14,19 @@
       "title": "Time-Series Predictive Analysis Dashboard",
       "desc": "A dashboard for exploring time-series data, performing predictive trend analysis, and generating visual insights interactively.",
       "details": "Details",
-      "launch": "Launch App"
+      "launch": "Launch App",
+      "techHeader": "Tech Stacks",
+      "techItems": ["Frontend: ", "Backend: ", "Deployment: Frontend on Vercel, Backend on Render (expect ~1-2 minutes of latency on cold start)"],
+      "underConstruction": "More documentation and walkthrough coming soon."
     },
     "project2": {
       "title": "Finance Tracker Web App",
       "desc": "Finance tracker demo dashboard with interactive CRUD, spending analytics, and clustering insights.",
       "details": "Details",
-      "launch": "Launch App"
+      "launch": "Launch App",
+      "techHeader": "Tech Stacks",
+      "techItems": ["Frontend: React, Next.js, Tailwind CSS", "Backend: Python", "Database: MongoDB (for caching)", "Deploy: Frontend on Vercel, Backend on Render (expect ~1-2 minutes of latency on cold start)"],
+      "underConstruction": "More documentation and walkthrough coming soon."
     },
     "backToProjects": "← Back to All Projects",
     "footer": "© 2025 — Full-stack data science projects, developed with AI assistance and hosted on GitHub Pages"
@@ -40,13 +46,19 @@
       "title": "Dasbor Analisis Prediktif Deret Waktu",
       "desc": "Dasbor untuk menjelajahi data deret waktu, melakukan analisis tren prediktif, dan menghasilkan wawasan visual secara interaktif.",
       "details": "Detail",
-      "launch": "Jalankan Aplikasi"
+      "launch": "Jalankan Aplikasi",
+      "techHeader": "Tumpukan Teknologi",
+      "techItems": ["Frontend: React, Next.js, Tailwind CSS", "Backend: Python", "Database: MongoDB (untuk caching)", "Deploy:  Frontend di Vercel, Backend di Render (perkirakan latensi ~1-2 menit saat startup)"],
+      "underConstruction": "Dokumentasi dan panduan tambahan akan segera hadir."
     },
     "project2": {
       "title": "Aplikasi Web Pelacak Finansial",
       "desc": "Demo dasbor keuangan dengan fitur CRUD interaktif, visualisasi analitik, dan klaster pengeluaran berbasis ML.",
       "details": "Detail",
-      "launch": "Jalankan Aplikasi"
+      "launch": "Jalankan Aplikasi",
+      "techHeader": "Tumpukan Teknologi",
+      "techItems": ["Frontend: React, Next.js, Tailwind CSS", "Backend: Go (Golang)", "Database: Simulasi transaksi database di memori (tanpa database riil)", "Deploy: Frontend di Vercel, Backend di Render (perkirakan latensi ~1-2 menit saat startup)"],
+      "underConstruction": "Dokumentasi dan panduan tambahan akan segera hadir."
     },
     "backToProjects": "← Kembali ke Semua Proyek",
     "footer": "© 2025 — Proyek ilmu data full-stack, dikembangkan dengan bantuan AI dan dipublikasikan di GitHub Pages"
@@ -66,13 +78,19 @@
       "title": "时间序列预测分析仪表板",
       "desc": "用于探索时间序列数据、执行预测趋势分析并生成交互式可视化洞察的仪表板。",
       "details": "详情",
-      "launch": "打开APP"
+      "launch": "打开APP",
+      "techHeader": "技术栈",
+      "techItems": ["前端: React, Next.js, Tailwind CSS", "后端: Python", "数据库: MongoDB（用于缓存）", "部署: 前端在 Vercel ,后端在 Render（冷启动时预计会有 1-2 分钟的延迟）。"],
+      "underConstruction": "更多文档和使用指南即将推出。"
     },
     "project2": {
       "title": "财务追踪器网络应用程序",
       "desc": "一款演示版财务追踪仪表盘，有具交互式CRUD操作、费用分析和聚类分析功能。",
       "details": "详情",
-      "launch": "打开APP"
+      "launch": "打开APP",
+      "techHeader": "技术栈",
+      "techItems": ["前端: React, Next.js, Tailwind CSS", "后端: Go (Golang)", "数据库: 内存模拟数据（无真实数据库）", "部署: 前端在 Vercel ，后端在 Render（冷启动时预计会有 1-2 分钟的延迟）。"],
+      "underConstruction": "更多文档和使用指南即将推出。"
     },
     "backToProjects": "← 返回所有项目",
     "footer": "© 2025 — 全栈数据科学项目，借助 AI 辅助开发，托管于 GitHub Pages"
