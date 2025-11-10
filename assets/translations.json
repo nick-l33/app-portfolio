@@ -18,7 +18,7 @@
     },
     "project2": {
       "title": "Finance Tracker Web App",
-      "desc": "A demo finance tracker dashboard with interactive CRUD, spending analytics, and clustering insights.",
+      "desc": "Finance tracker demo dashboard with interactive CRUD, spending analytics, and clustering insights.",
       "details": "Details",
       "launch": "Launch App"
     },
@@ -44,7 +44,7 @@
     },
     "project2": {
       "title": "Aplikasi Web Pelacak Finansial",
-      "desc": "Demo dashbor keuangan dengan fitur CRUD interaktif, visualisasi analitik, dan klaster pengeluaran berbasis ML.",
+      "desc": "Demo dasbor keuangan dengan fitur CRUD interaktif, visualisasi analitik, dan klaster pengeluaran berbasis ML.",
       "details": "Detail",
       "launch": "Jalankan Aplikasi"
     },
