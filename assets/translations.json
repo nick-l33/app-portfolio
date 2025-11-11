@@ -7,7 +7,7 @@
       "details": "Details",
       "launch": "Launch App",
       "techHeader": "Tech Stacks",
-      "techItems": ["Frontend: Streamlit (Python-based UI framework)", "Backend: Python", "Deployment: Streamlit Cloud"],
+      "techItems": ["Frontend: Streamlit (Python-based UI framework)", "Backend: Python, SciPy, StatsModels", "Deployment: Streamlit Cloud"],
       "underConstruction": "More documentation and walkthrough coming soon."
     },
     "project3": {
@@ -39,7 +39,7 @@
       "details": "Detail",
       "launch": "Jalankan Aplikasi",
       "techHeader": "Tumpukan Teknologi",
-      "techItems": ["Frontend: Streamlit (Python)", "Statistik: SciPy, StatsModels", "Deploy: Streamlit Cloud"],
+      "techItems": ["Frontend: Streamlit (Python)", "Backend: Python, SciPy, StatsModels", "Deploy: Streamlit Cloud"],
       "underConstruction": "Dokumentasi dan panduan tambahan akan segera hadir."
     },
     "project3": {
@@ -71,7 +71,7 @@
       "details": "详情",
       "launch": "打开APP",
       "techHeader": "技术栈",
-      "techItems": ["前端：Streamlit (Python)", "统计：SciPy、StatsModels", "部署：Streamlit Cloud"],
+      "techItems": ["前端：Streamlit (Python)", "后端: Python, SciPy, StatsModels", "部署：Streamlit Cloud"],
       "underConstruction": "更多文档和使用指南即将推出。"
     },
     "project3": {
