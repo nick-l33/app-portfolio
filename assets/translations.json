@@ -16,7 +16,7 @@
       "details": "Details",
       "launch": "Launch App",
       "techHeader": "Tech Stacks",
-      "techItems": ["Frontend: React, Next.js, Tailwind CSS", "Backend: Python", "Database: MongoDB (for user-specific caching)", "Deployment: Frontend on Vercel, Backend on Render (expect ~1-2 minutes of latency on cold start)"],
+      "techItems": ["Frontend: React, Next.js, Tailwind CSS, Recharts", "Backend: Python, FastAPI, yfinance, Prophet, ARIMA", "Database: MongoDB (for user-specific caching)", "Deployment: Frontend on Vercel, Backend on Render (expect ~1-2 minutes of latency on cold start)"],
       "underConstruction": "More documentation and walkthrough coming soon."
     },
     "project2": {
@@ -48,7 +48,7 @@
       "details": "Detail",
       "launch": "Jalankan Aplikasi",
       "techHeader": "Tumpukan Teknologi",
-      "techItems": ["Frontend: React, Next.js, Tailwind CSS", "Backend: Python", "Database: MongoDB (untuk caching)", "Deploy:  Frontend di Vercel, Backend di Render (perkirakan latensi ~1-2 menit saat startup)"],
+      "techItems": ["Frontend: React, Next.js, Tailwind CSS, Recharts", "Backend: Python, FastAPI, yfinance, Prophet, ARIMA", "Database: MongoDB (untuk caching)", "Deploy:  Frontend di Vercel, Backend di Render (perkirakan latensi ~1-2 menit saat startup)"],
       "underConstruction": "Dokumentasi dan panduan tambahan akan segera hadir."
     },
     "project2": {
@@ -80,7 +80,7 @@
       "details": "详情",
       "launch": "打开APP",
       "techHeader": "技术栈",
-      "techItems": ["前端: React, Next.js, Tailwind CSS", "后端: Python", "数据库: MongoDB（用于缓存）", "部署: 前端在 Vercel ,后端在 Render（冷启动时预计会有 1-2 分钟的延迟）。"],
+      "techItems": ["前端: React, Next.js, Tailwind CSS, Recharts", "后端: Python, FastAPI, yfinance, Prophet, ARIMA", "数据库: MongoDB（用于缓存）", "部署: 前端在 Vercel ,后端在 Render（冷启动时预计会有 1-2 分钟的延迟）。"],
       "underConstruction": "更多文档和使用指南即将推出。"
     },
     "project2": {
