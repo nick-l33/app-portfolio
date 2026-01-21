@@ -5,7 +5,7 @@ let currentLang = 'en';
 
 // Load translations once
 
-const TRANSLATION_VERSION = '0'; // ← bump up version # on each json update
+const TRANSLATION_VERSION = '1'; // ← bump up version # on each json update
 
 async function loadTranslations() {
   try {
