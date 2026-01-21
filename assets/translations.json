@@ -64,7 +64,7 @@
     "footer": "© 2025 — Proyek ilmu data full-stack, dikembangkan dengan bantuan AI dan dipublikasikan di GitHub Pages"
   },
   "zh": {
-    "pageTitle": "数据驱动的 Web 应用项目",
+    "pageTitle": "数据驱动的Web应用项目",
     "project1": {
       "title": "统计数据分析 Web 应用",
       "desc": "通过自动正态性检测和动态列选择，交互式执行 A/B 测试和相关性分析。",
