@@ -4,15 +4,29 @@ let translations = {};
 let currentLang = 'en';
 
 // Load translations once
+
+const TRANSLATION_VERSION = '0'; // ← bump up version # on each json update
+
 async function loadTranslations() {
   try {
-    const res = await fetch('assets/translations.json');
+    // Append ?v=... to bypass browser caching and stale json data
+    const res = await fetch(`assets/translations.json?v=${TRANSLATION_VERSION}`);
     translations = await res.json();
   } catch (e) {
     console.warn('Failed to load translations. Falling back to English.');
     translations = { en: {} };
   }
 }
+
+// async function loadTranslations() {
+//   try {
+//     const res = await fetch('assets/translations.json');
+//     translations = await res.json();
+//   } catch (e) {
+//     console.warn('Failed to load translations. Falling back to English.');
+//     translations = { en: {} };
+//   }
+// }
 
 // Apply saved theme
 function applyTheme() {
