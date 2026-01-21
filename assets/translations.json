@@ -64,12 +64,12 @@
     "footer": "© 2025 — Proyek ilmu data full-stack, dikembangkan dengan bantuan AI dan dipublikasikan di GitHub Pages"
   },
   "zh": {
-    "pageTitle": "数据科学网络应用作品集",
+    "pageTitle": "数据驱动的 Web 应用项目",
     "project1": {
-      "title": "统计数据分析网络应用",
+      "title": "统计数据分析 Web 应用",
       "desc": "通过自动正态性检测和动态列选择，交互式执行 A/B 测试和相关性分析。",
       "details": "详情",
-      "launch": "打开APP",
+      "launch": "打开 APP",
       "techHeader": "技术栈",
       "techItems": ["前端：Streamlit (Python)", "后端: Python, SciPy, StatsModels", "部署：Streamlit Cloud"],
       "underConstruction": "更多文档和使用指南即将推出。"
@@ -78,16 +78,16 @@
       "title": "时间序列预测分析仪表板",
       "desc": "用于探索时间序列数据、执行预测趋势分析并生成交互式可视化洞察的仪表板。",
       "details": "详情",
-      "launch": "打开APP",
+      "launch": "打开 APP",
       "techHeader": "技术栈",
       "techItems": ["前端: React, Next.js, Tailwind CSS, Recharts", "后端: Python, FastAPI, yfinance, Prophet, ARIMA", "数据库: MongoDB（用于缓存）", "部署: 前端在 Vercel ,后端在 Render（冷启动时预计会有 1-2 分钟的延迟）。"],
       "underConstruction": "更多文档和使用指南即将推出。"
     },
     "project2": {
-      "title": "财务追踪器网络应用程序",
-      "desc": "一款演示版财务追踪仪表盘，有具交互式CRUD操作、费用分析和聚类分析功能。",
+      "title": "财务追踪器 Web 应用程序",
+      "desc": "一款演示版财务追踪仪表盘，有具交互式 CRUD 操作、费用分析和聚类分析功能。",
       "details": "详情",
-      "launch": "打开APP",
+      "launch": "打开 APP",
       "techHeader": "技术栈",
       "techItems": ["前端: React, Next.js, Tailwind CSS", "后端: Go (Golang)", "数据库: 内存模拟数据（无真实数据库）", "部署: 前端在 Vercel ，后端在 Render（冷启动时预计会有 1-2 分钟的延迟）。"],
       "underConstruction": "更多文档和使用指南即将推出。"
