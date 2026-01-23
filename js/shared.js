@@ -18,16 +18,6 @@ async function loadTranslations() {
   }
 }
 
-// async function loadTranslations() {
-//   try {
-//     const res = await fetch('assets/translations.json');
-//     translations = await res.json();
-//   } catch (e) {
-//     console.warn('Failed to load translations. Falling back to English.');
-//     translations = { en: {} };
-//   }
-// }
-
 // Apply saved theme
 function applyTheme() {
   const theme = localStorage.getItem('theme') || 'light';
